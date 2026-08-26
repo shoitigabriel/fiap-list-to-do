@@ -124,37 +124,6 @@ Em vez de exibir o conteúdo de exemplo do template do Android Studio, a Activit
 6. O formulário carrega os dados, permite alterações e atualiza o registro.
 7. Na listagem, a tarefa pode ser concluída, desmarcada ou excluída.
 
-## Como executar o projeto
-
-### Pré-requisitos
-
-- Android Studio atualizado
-- Android SDK instalado
-- JDK compatível com a versão do Gradle utilizada no projeto
-- Emulador Android configurado ou dispositivo físico com depuração USB habilitada
-
-### Passos
-
-1. Clone o repositório:
-
-```bash
-git clone URL_DO_SEU_REPOSITORIO
-```
-
-2. Abra a pasta do projeto no Android Studio.
-3. Aguarde a sincronização do Gradle.
-4. Selecione um emulador ou dispositivo Android.
-5. Execute o módulo `app` pelo botão **Run**.
-
-Também é possível verificar o build pelo terminal, na raiz do projeto:
-
-```bash
-# Linux ou macOS
-./gradlew build
-
-# Windows
-./gradlew.bat build
-```
 
 ## Evidências
 
@@ -162,15 +131,15 @@ As evidências de execução devem ser armazenadas em `docs/evidencias`. Para qu
 
 ### Tela inicial com a lista de tarefas
 
-![Tela inicial com a lista de tarefas](docs/evidencias/01-lista-tarefas.png)
+![Tela inicial](docs/evidencias/tela-inicial.png)
 
 ### Cadastro de uma nova tarefa
 
-![Formulário de cadastro](docs/evidencias/02-cadastro-tarefa.png)
+![Formulário de cadastro](docs/evidencias/cadastro-tarefa.png)
 
 ### Tarefa cadastrada na lista
 
-![Tarefa cadastrada](docs/evidencias/03-tarefa-cadastrada.png)
+![Tarefa cadastrada](docs/evidencias/tarefa-cadastrada.png)
 
 ### Edição de uma tarefa existente
 
@@ -178,21 +147,9 @@ As evidências de execução devem ser armazenadas em `docs/evidencias`. Para qu
 
 ### Tarefa marcada como concluída
 
-![Tarefa concluída](docs/evidencias/05-tarefa-concluida.png)
+![Tarefa concluída](docs/evidencias/tarefa-concluida.png)
 
-### Exclusão de uma tarefa
 
-![Exclusão de tarefa](docs/evidencias/06-exclusao-tarefa.png)
-
-### Navegação entre lista e formulário
-
-![Navegação entre telas](docs/evidencias/07-navegacao.png)
-
-### Build ou execução sem erros
-
-![Build executado sem erros](docs/evidencias/08-build-sucesso.png)
-
-> Substitua as imagens sugeridas pelas capturas reais do projeto antes da entrega. As evidências devem estar legíveis e demonstrar claramente cada funcionalidade.
 
 ## Organização sugerida das evidências
 
@@ -219,20 +176,8 @@ A evolução proposta para a atividade foi organizada nos seguintes commits de r
 - [`cc4f148`](https://github.com/carreiras/to-do-list/commit/cc4f148ccefac47b9f39243d0998812887ad193b): rotas e navegação
 - [`5788686`](https://github.com/carreiras/to-do-list/commit/57886860775559228effea503ef9a705955d72ad): integração na MainActivity
 
-## Checklist de entrega
 
-- [ ] O projeto compila e executa
-- [ ] É possível cadastrar uma tarefa
-- [ ] É possível editar uma tarefa
-- [ ] É possível concluir e desmarcar uma tarefa
-- [ ] É possível excluir uma tarefa
-- [ ] A navegação entre as telas funciona
-- [ ] O README descreve a arquitetura implementada
-- [ ] As evidências reais estão em `docs/evidencias`
-- [ ] Arquivos de build, cache e configurações locais não foram versionados
-- [ ] O repositório contém a versão final da atividade
 
 ## Autor
 
 **Gabriel Shoiti Yoshida**  
-FIAP | Android Development

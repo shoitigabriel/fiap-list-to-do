@@ -143,7 +143,7 @@ As evidências de execução devem ser armazenadas em `docs/evidencias`. Para qu
 
 ### Edição de uma tarefa existente
 
-![Edição de tarefa](docs/evidencias/04-edicao-tarefa.png)
+![Edição de tarefa](docs/evidencias/edicao-tarefa.png)
 
 ### Tarefa marcada como concluída
 

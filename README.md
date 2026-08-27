@@ -150,22 +150,6 @@ As evidências de execução devem ser armazenadas em `docs/evidencias`. Para qu
 ![Tarefa concluída](docs/evidencias/tarefa-concluida.png)
 
 
-
-## Organização sugerida das evidências
-
-```text
-docs/
-└── evidencias/
-    ├── 01-lista-tarefas.png
-    ├── 02-cadastro-tarefa.png
-    ├── 03-tarefa-cadastrada.png
-    ├── 04-edicao-tarefa.png
-    ├── 05-tarefa-concluida.png
-    ├── 06-exclusao-tarefa.png
-    ├── 07-navegacao.png
-    └── 08-build-sucesso.png
-```
-
 ## Referências de implementação
 
 A evolução proposta para a atividade foi organizada nos seguintes commits de referência:
